@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -189,4 +190,11 @@ nav{
         margin: 0.5rem;
     }
 
+    #locations h2{
+        align-items: flex-start;
+    }
+
+    .moving-cloud-1{
+        animation: none;
+    }
 }
