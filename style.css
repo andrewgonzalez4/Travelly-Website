@@ -194,7 +194,7 @@ nav{
         align-items: flex-start;
     }
 
-    .moving-cloud-1{
-        animation: none;
+    li:hover{
+        transform: none;
     }
 }
