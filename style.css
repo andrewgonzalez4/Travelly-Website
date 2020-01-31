@@ -190,11 +190,15 @@ nav{
         margin: 0.5rem;
     }
 
-    #locations h2{
-        align-items: flex-start;
+    #locations h3{
+        background: rgba(26, 77, 140, 0.5);
     }
 
     li:hover{
         transform: none;
+    }
+
+    .cloud{
+        pointer-events: none;
     }
 }
