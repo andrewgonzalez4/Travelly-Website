@@ -269,6 +269,14 @@ footer ul{
     align-items: center;
 }
 
+footer ul li{
+    transition: all 0.5s ease-in-out;
+}
+
+footer ul li:hover{
+    transform: rotateY(360deg);
+}
+
 footer h5{
     flex: 1 1 40rem;
 }
